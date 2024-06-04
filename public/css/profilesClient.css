@@ -1,0 +1,146 @@
+
+.container {
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 120px;
+    text-align: center;
+    
+}
+
+.profile-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.buy-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.8s ease; 
+}
+
+.buy-btn:hover {
+    background-color: #012d5b;
+}
+
+.text-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+.blur-text {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    filter: blur(2px);
+}
+
+.unselectable {
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda; 
+    border-color: #c3e6cb; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.save-btn,
+.unsave-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.save-btn {
+    background-color: #6bafdd;
+    border-radius: 15px;
+    color: white;
+    transition: background-color 0.8s ease; 
+}
+.save-btn:hover {
+    background-color: #012d5b;
+}
+.unsave-btn {
+    background-color: #dc3545;
+    color: white;
+    transition: background-color 0.8s ease; 
+}
+
+.unsave-btn:hover{
+    background-color: #7a111b;
+}
+
+.section-title {
+    background-color: #9c9ea0; 
+    background-image: linear-gradient(135deg, #6c757d 0%, #9c9ea0 100%); 
+    color: white;
+    padding: 20px 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    margin-top: 40px; 
+    text-align: center;
+    font-size: 28px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    transition: all 0.3s ease;
+}
+
+/* .section-title:hover {
+    background-image: linear-gradient(135deg, #6c757d 0%, #bfc1c2 100%); 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 24px rgba(0, 0, 0, 0.25); 
+} */
+
+.no-purchased-message p {
+    text-align: center;
+    color: #878686;
+    font-style: italic;
+    margin-top: 20px;
+}

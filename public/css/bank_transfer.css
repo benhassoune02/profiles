@@ -1,0 +1,80 @@
+.container {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.bank-details,
+.form-container {
+    flex: 1; 
+    margin: 0 20px; 
+}
+
+
+.bank-details {
+    padding: 20px;
+    border-right: 2px solid #ddd;
+}
+
+h2 {
+    
+    color: #333; 
+    font-size: 28px; 
+    margin-top: 115px; 
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+}
+
+p {
+    color: #666; 
+    font-size: 16px; 
+    line-height: 1.6; 
+    text-align: center; 
+    max-width: 600px;
+    margin-right: 50px; 
+    font-family: 'Arial', sans-serif; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8; 
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+}

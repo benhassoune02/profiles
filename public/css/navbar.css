@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+
+.navbar {
+    background-color: #555353;
+    color: #fff;
+    padding-left: 70px;
+    padding-bottom: 16px;
+    padding-top: 6px;
+    display: flex;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1000; 
+}
+
+.navbar-logo {
+margin-right: auto;
+}
+
+.navbar-logo a img {
+width: 70px;
+height: auto;
+}
+
+.navbar-container {
+display: flex;
+justify-content: center; 
+justify-content: space-between;
+
+}
+
+.navbar-menu {
+list-style: none;
+padding: 0;
+margin-left: 450px;
+display: flex;
+align-items: center;
+justify-content: center; 
+
+}
+
+.navbar-menu li {
+margin: 0 10px;
+}
+
+.navbar-menu a {
+color: #fff;
+text-decoration: none;
+padding: 5px 10px;
+transition: background-color 1.1s ease, color 1.1s ease;
+
+}
+
+.navbar-menu a:hover, .navbar-menu a:focus, .navbar-menu .active a {
+background-color: white;
+color: #333;
+border-radius: 4px;
+}
+
+.navbar button {
+background: transparent;
+border: none;
+color: #fff;
+cursor: pointer;
+padding: 5px 10px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar button:hover, .navbar button:focus {
+background-color: white;
+color: #333;
+}
